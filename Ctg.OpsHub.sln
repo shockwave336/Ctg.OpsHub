@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 18
+VisualStudioVersion = 18.3.11429.125 d18.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
@@ -24,6 +24,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ctg.OpsHub.WebUI", "src\Ctg.OpsHub.WebUI\Ctg.OpsHub.WebUI.csproj", "{27BF9904-B41F-4741-AF0F-AD3B02AC0D8F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ctg.OpsHub.Gateway", "src\Ctg.OpsHub.Gateway\Ctg.OpsHub.Gateway.csproj", "{138549B4-6CAB-4B50-A833-A228C06461C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B0FDA7BA-07A5-43C8-B2B3-778625F0DE70}"
+	ProjectSection(SolutionItems) = preProject
+		podman-compose.yml = podman-compose.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
