@@ -1,0 +1,6 @@
+@Ctg.OpsHub.Gateway_HostAddress = http://localhost:5022
+
+GET {{Ctg.OpsHub.Gateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

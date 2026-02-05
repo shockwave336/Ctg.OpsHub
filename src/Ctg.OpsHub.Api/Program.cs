@@ -33,6 +33,14 @@ app.MapGet("/weatherforecast", () =>
 })
 .WithName("GetWeatherForecast");
 
+// Enable Blazor WASM hosting
+app.UseBlazorFrameworkFiles(); 
+app.UseStaticFiles(); 
+
+app.UseRouting();
+app.MapControllers();
+app.MapFallbackToFile("index.html"); // Serves Blazor for any non-API route
+
 app.Run();
 
 record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
